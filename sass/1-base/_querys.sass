@@ -1,0 +1,18 @@
+@use 'variables'
+@use '../2-layout/content'
+@use '../3-component/card'
+
+
+
+@media (max-width: 700px)
+    .container
+        display: flex
+        flex-direction: column
+        width: 80%
+
+
+    .card:nth-child(2)
+        border-radius: 0px
+
+    .card:nth-child(3)
+        border-radius: 0px 0px 10px 10px
